@@ -63,19 +63,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic Database] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Vet Clinic Database: create animals table]** In this project, a relational database was used to create the initial data structure for a vet clinic. A table to store animals' information was created, and some data was inserted into it, and also query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
 <details>
 <summary>Database</summary>
@@ -102,19 +102,20 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Animals table]**
+- **[Schema]**
+- **[Queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+<!-- 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](<replace-with-your-deployment-URL>) -->
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +130,8 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- Install PostgreSQL or
+- db-fiddle.com.
 
 <!--
 Example command:
@@ -141,6 +144,12 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+- Goto GitHub main page.
+- Click <>code.
+- Copy url of the repo.
+- Open the terminal of your local machine
+- Clone to machine thus: git clone url of repo.
+
 
 <!--
 Example commands:
@@ -154,6 +163,8 @@ Example commands:
 ### Install
 
 Install this project with:
+- VS code.
+- Git Bash etc.
 
 <!--
 Example command:
@@ -163,7 +174,7 @@ Example command:
   gem install
 ```
 --->
-
+<!-- 
 ### Usage
 
 To run the project, execute the following command:
@@ -200,25 +211,25 @@ Example:
 ```
  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@lugard1](https://github.com/lugard1)
+- Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
+- LinkedIn: [Lugard Agu](https://www.linkedin.com/in/lugardagu)
+
+<!-- 👤 **Author2** -->
+
+<!-- - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +237,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **I will Query and update animals table**
+<!-- - [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
