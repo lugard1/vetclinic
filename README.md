@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+<!-- > Describe your project in 1 or 2 sentences. -->
 
 **[Vet Clinic Database: create animals table]** In this project, a relational database was used to create the initial data structure for a vet clinic. A table to store animals' information was created, and some data was inserted into it, and also query it.
 
@@ -100,7 +100,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+<!-- > Describe between 1-3 key features of the application. -->
 
 - **[Animals table]**
 - **[Schema]**
@@ -110,20 +110,20 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 <!-- 
 > Add a link to your deployed project.
 
 - [Live Demo Link](<replace-with-your-deployment-URL>) -->
-- N/A
+<!-- - N/A -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+<!-- > Describe how a new developer could make use of your project. -->
 
 To get a local copy up and running, follow these steps.
 
@@ -240,8 +240,8 @@ Example:
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
 - **I will Query and update animals table**
-<!-- - [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]** -->
+- **[I will Query multiple tables]**
+- **[Add 'join table' for visits]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
