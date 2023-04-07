@@ -1,6 +1,8 @@
 <!-- # curriculum-databases-projects-template
+<!-- # curriculum-databases-projects-template
 
 > This template should be used for database related projects at Microverse.
+> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise. -->
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise. -->
 
 
@@ -65,6 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
+<!-- > Describe your project in 1 or 2 sentences. -->
 <!-- > Describe your project in 1 or 2 sentences. -->
 
 **[Vet Clinic Database: query and update animals table]** In this project, transactions were updated and records deleted and analytical questions answered.
