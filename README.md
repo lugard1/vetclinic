@@ -65,7 +65,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+<!-- > Describe your project in 1 or 2 sentences. -->
+<!-- > Describe your project in 1 or 2 sentences. -->
 
 **[Vet Clinic Database: query multiple tables]** In this project some new tables were added, and foreign key columns was added to my existing animals table to model one-to-many relationships. Afterward, JOIN was used to query the data.
 
@@ -73,9 +74,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -87,7 +88,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
 <details>
 <summary>Database</summary>
@@ -129,6 +130,8 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- Install PostgreSQL or
+- db-fiddle.com.
 
 - Install PostgreSQL or
 - db-fiddle.com.
@@ -162,6 +165,8 @@ Example commands:
 ### Install
 
 Install this project with:
+- VS code.
+- Git Bash etc.
 
 - VS code.
 - Git Bash etc.
@@ -269,7 +274,7 @@ If you like this project give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
 I would like to thank every one who contributed to the success of this work.
 
