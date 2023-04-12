@@ -38,36 +38,3 @@ UPDATE animals SET owner_id = 2 WHERE name = 'Gabumon' OR name = 'Pikachu';
 UPDATE animals SET owner_id = 3 WHERE name = 'Devimon' OR name = 'Plantmon';
 UPDATE animals SET owner_id = 4 WHERE name = 'Charmander' OR name = 'Squirtle' OR name = 'Blossom';
 UPDATE animals SET owner_id = 5 WHERE name = 'Angemon' OR name = 'Boarmon';
-
-
-
-
-
--- Add the species_id column to the animals table
--- ALTER TABLE animals ADD COLUMN species_id INTEGER;
-
--- Update the species_id values based on the animal names
--- UPDATE animals SET species_id =
---   CASE
---     WHEN name LIKE '%mon' THEN (SELECT id FROM species WHERE name = 'Digimon')
---     ELSE (SELECT id FROM species WHERE name = 'Pokemon')
---   END;
-
--- Add the owner_id column to the animals table
--- ALTER TABLE animals ADD COLUMN owner_id INTEGER;
-
--- Update the owner_id values based on the provided owner-animal relationships
--- UPDATE animals SET owner_id =
---   (SELECT id FROM owners WHERE full_name = 'Sam Smith') WHERE name = 'Agumon';
-  
--- UPDATE animals SET owner_id =
---   (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name IN ('Gabumon', 'Pikachu');
-  
--- UPDATE animals SET owner_id =
---   (SELECT id FROM owners WHERE full_name = 'Bob') WHERE name IN ('Devimon', 'Plantmon');
-  
--- UPDATE animals SET owner_id =
---   (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name IN ('Charmander', 'Squirtle', 'Blossom');
-  
--- UPDATE animals SET owner_id =
---   (SELECT id FROM owners WHERE full_name = 'Dean Winchester') WHERE name IN ('Angemon', 'Boarmon');
