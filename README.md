@@ -262,17 +262,17 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES
+  <!-- FUTURE FEATURES  -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- **[Add 'join table' for visits]**
-<!-- - [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]** -->
+- **[Add more Tables]**
+- **[Add more Data]**
+- **[Add more Queries]** 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
