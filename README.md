@@ -65,7 +65,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+<!-- > Describe your project in 1 or 2 sentences. -->
+<!-- > Describe your project in 1 or 2 sentences. -->
 
 **[Vet Clinic Database]** In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
 
@@ -100,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+<!-- > Describe between 1-3 key features of the application. -->
 
 - **[Animals Table]**
 - **[Schema]**
@@ -112,9 +113,9 @@ After you're finished please remove all the comments and instructions!
 <!-- 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+<!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+<!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -129,6 +130,12 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- Install PostgreSQL or
+- db-fiddle.com.
+
+- Install PostgreSQL or
+- db-fiddle.com.
+- SQL Shell (psql).
 
 - Install PostgreSQL or
 
@@ -150,7 +157,11 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+- Goto GitHub main page.
+- Click <>code.
+- Copy url of the repo.
+- Open the terminal of your local machine
+- Clone to machine thus: git clone url of repo.
 
 - Goto GitHub main page.
 - Click <>code.
@@ -170,6 +181,11 @@ Example commands:
 ### Install
 
 Install this project with:
+- VS code.
+- Git Bash etc.
+
+- VS code.
+- Git Bash etc.
 
 - VS code.
 
@@ -210,7 +226,7 @@ Example command:
 ```sh
   bin/rails test test/models/article_test.rb
 ```
---->
+<!-- --->
 
 <!-- ### Deployment -->
 
@@ -224,7 +240,7 @@ Example:
 ```
  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- AUTHORS -->
 
@@ -250,11 +266,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **[Add 'join table' for visits]**
+<!-- - [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
