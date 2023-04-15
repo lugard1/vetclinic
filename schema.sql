@@ -32,3 +32,52 @@ ADD CONSTRAINT fk_species_id FOREIGN KEY (species_id) REFERENCES species(id);
 
 ALTER TABLE animals ADD COLUMN owner_id INT,
 ADD CONSTRAINT fk_owner_id FOREIGN KEY (owner_id) REFERENCES owners(id);
+
+-------------------------------------------------------------------------------------
+
+CREATE TABLE vets(
+id INT GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(100) NOT NULL,
+	age INT NOT NULL,
+	date_of_graduation DATE NOT NULL,
+	PRIMARY KEY(id)
+);
+
+--  Create a "join table" called specializations
+
+CREATE TABLE specializations(
+species_id INT,
+	vets_id INT
+);
+
+SELECT * FROM specializations
+
+ALTER TABLE specializations
+ADD FOREIGN KEY (species_id)
+REFERENCES species(id)
+ON DELETE CASCADE;
+
+ALTER TABLE specializations
+ADD FOREIGN KEY (vets_id)
+REFERENCES vets(id)
+ON DELETE CASCADE;
+
+-- Create a "join table" called visits
+
+CREATE TABLE visits(
+animals_id INT,
+	vets_id INT
+);
+
+ALTER TABLE visits
+ADD FOREIGN KEY (animals_id)
+REFERENCES animals(id)
+ON DELETE CASCADE;
+
+ALTER TABLE visits
+ADD FOREIGN KEY (vets_id)
+REFERENCES vets(id)
+ON DELETE CASCADE;
+
+ALTER TABLE visits
+ADD date_of_visits DATE;

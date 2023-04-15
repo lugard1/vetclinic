@@ -1,7 +1,7 @@
 # Vet Clinic Database
-<!-- 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise. -->
+
+<!-- > This template should be used for database related projects at Microverse. -->
+<!-- > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise. -->
 
 
 ## Getting Started
@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe your project in 1 or 2 sentences. -->
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Vet Clinic Database: query multiple tables]** In this project some new tables were added, and foreign key columns was added to my existing animals table to model one-to-many relationships. Afterward, JOIN was used to query the data.
+**[Vet Clinic Database]** In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,9 +81,9 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -110,14 +110,14 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+<!-- 
+## 🚀 Live Demo <a name="live-demo"></a>
 
 <!-- > Add a link to your deployed project. -->
 
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -137,6 +137,16 @@ In order to run this project you need:
 - db-fiddle.com.
 - SQL Shell (psql).
 
+- Install PostgreSQL or
+
+- db-fiddle.com.
+
+- Install PostgreSQL or
+
+- db-fiddle.com.
+
+- SQL Shell (psql).
+
 <!--
 Example command:
 
@@ -146,6 +156,12 @@ Example command:
  -->
 
 ### Setup
+
+- Goto GitHub main page.
+- Click <>code.
+- Copy url of the repo.
+- Open the terminal of your local machine
+- Clone to machine thus: git clone url of repo.
 
 - Goto GitHub main page.
 - Click <>code.
@@ -171,6 +187,14 @@ Install this project with:
 - VS code.
 - Git Bash etc.
 
+- VS code.
+
+- Git Bash etc.
+
+- VS code.
+
+- Git Bash etc.
+
 <!--
 Example command:
 
@@ -179,10 +203,10 @@ Example command:
   gem install
 ```
 --->
-<!-- 
-### Usage
 
-To run the project, execute the following command: -->
+<!-- ### Usage -->
+
+<!-- To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -191,10 +215,10 @@ Example command:
   rails server
 ```
 --->
-<!-- 
-### Run tests
 
-To run tests, run the following command: -->
+<!-- ### Run tests -->
+
+<!-- To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -206,7 +230,7 @@ Example command:
 
 <!-- ### Deployment -->
 
-<!-- You can deploy this project using:  -->
+<!-- You can deploy this project using: -->
 
 <!--
 Example:
@@ -220,7 +244,7 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👤 Author <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
@@ -238,17 +262,17 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+  <!-- FUTURE FEATURES  -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- **[Add 'join table' for visits]**
-<!-- - [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]** -->
+- **[Add more Tables]**
+- **[Add more Data]**
+- **[Add more Queries]** 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
@@ -276,31 +300,31 @@ If you like this project give it a star ⭐️
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank every one who contributed to the success of this work.
+I would like to thank every one who contributed to the success of this work. especially, Ermiyas Demsew.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-<!-- ## ❓ FAQ <a name="faq"></a>
+<!-- ## ❓ FAQ <a name="faq"></a> -->
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
+<!-- 
 - **[Question_1]**
 
   - [Answer_1]
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/vetclinic/blob/query-multiple-tables/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/vetclinic/blob/add-join-table-for-visits/MIT.md) licensed.
 <!-- 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
