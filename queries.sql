@@ -228,16 +228,16 @@ WHERE a.species_id != s.species_id;
 SELECT a.name, COUNT(vi.animals_id), spe.name, v.name
 FROM vets v
 JOIN visits vi ON v.id = vi.vets_id
-join animals a ON vi.animals_id = a.id
+JOIN animals a ON vi.animals_id = a.id
 JOIN species spe ON a.species_id = spe.id
 WHERE vi.vets_id =(SELECT id FROM vets WHERE name ='Maisy Smith')
 GROUP BY vi.animals_id, a.name, spe.name, v.name
 ORDER BY COUNT(vi.animals_id) DESC LIMIT 1;
 
-SELECT COUNT(*) FROM visits where animals_id = 4;
-SELECT * FROM visits where vets_id = 2;
-SELECT * FROM owners where email = 'owner_18327@mail.com';
+SELECT COUNT(*) FROM visits WHERE animals_id = 4;
+SELECT * FROM visits WHERE vets_id = 2;
+SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
 
-explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
-explain analyze SELECT * FROM visits where vets_id = 2;
-explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits WHERE animals_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits WHERE vets_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
