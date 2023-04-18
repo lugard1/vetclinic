@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe your project in 1 or 2 sentences. -->
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Vet Clinic Database]** In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
+**[Vet Clinic Database: database performance audit]** In this project we optimize some slow queries in our database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -117,7 +117,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- GETTING STARTED -->
 
@@ -132,20 +132,11 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - Install PostgreSQL or
 - db-fiddle.com.
-
 - Install PostgreSQL or
 - db-fiddle.com.
 - SQL Shell (psql).
 
-- Install PostgreSQL or
 
-- db-fiddle.com.
-
-- Install PostgreSQL or
-
-- db-fiddle.com.
-
-- SQL Shell (psql).
 
 <!--
 Example command:
@@ -156,12 +147,6 @@ Example command:
  -->
 
 ### Setup
-
-- Goto GitHub main page.
-- Click <>code.
-- Copy url of the repo.
-- Open the terminal of your local machine
-- Clone to machine thus: git clone url of repo.
 
 - Goto GitHub main page.
 - Click <>code.
@@ -181,18 +166,8 @@ Example commands:
 ### Install
 
 Install this project with:
-- VS code.
-- Git Bash etc.
 
 - VS code.
-- Git Bash etc.
-
-- VS code.
-
-- Git Bash etc.
-
-- VS code.
-
 - Git Bash etc.
 
 <!--
@@ -300,7 +275,7 @@ If you like this project give it a star ⭐️
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank every one who contributed to the success of this work. especially, Ermiyas Demsew.
+I would like to thank every one who contributed to the success of this work. especially.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
