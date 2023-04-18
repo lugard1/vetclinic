@@ -244,21 +244,21 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👤 Author <a name="authors"></a>
+## 👤👤 Authors <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
 - LinkedIn: [Lugard Agu](https://www.linkedin.com/in/lugardagu)
-<!-- 
+
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
+- GitHub: [@frempongdev](https://github.com/frempongdev)
+- Twitter: [@knobaddy](https://twitter.com/knobaddy)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/frempongdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
