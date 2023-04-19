@@ -81,3 +81,11 @@ ON DELETE CASCADE;
 
 ALTER TABLE visits
 ADD date_of_visits DATE;
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- CREATE INDEXES TO IMPROVE THE PERFORMANCE
+CREATE INDEX index_animals_id ON visits(animals_id);
+CREATE INDEX index_vets_id ON visits(vets_id);
+CREATE INDEX index_owners ON owners(email);
