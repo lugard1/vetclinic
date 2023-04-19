@@ -19,3 +19,10 @@ CREATE TABLE invoices (
   payed_at timestamp,
   medical_history_id INT REFERENCES medical_histories(id)
 );
+
+CREATE TABLE treatments (
+  id GENERATED ALWAYS AS IDENTITY,
+  type VARCHAR(50),
+  name VARCHAR(255),
+  PRIMARY KEY (id)
+);
