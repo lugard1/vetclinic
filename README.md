@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe your project in 1 or 2 sentences. -->
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Vet Clinic Database: database performance audit]** In this project we optimize some slow queries in our database.
+**[Vet Clinic Database]** is a database project for a Vet Clinic of animals and visits. It also has a database for a mini hospital built based on a provided diagram. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -103,9 +103,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **[Animals Table]**
-- **[Schema]**
-- **[Queries]**
+- **[Vet Clinic Database]**
+- **[Vet Clinic Tables for animals, owners, vets, species, visits and specialization]**
+- **[Vet Clinic Indexes for animals, owners and vets]**
+- **[Queries for analytical questions for animals database]**
+
+<br>
+
+- **[Mini Hospital Database]**
+- **[Mini Hospital Tables for patients, invoices, invoice_items, medical_history, treatments and merge tables for medical history and treatments]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +123,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>  -->
 
 <!-- GETTING STARTED -->
 
@@ -223,13 +229,13 @@ Example:
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Lugard**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
 - LinkedIn: [Lugard Agu](https://www.linkedin.com/in/lugardagu)
 
-👤 **Author2**
+👤 **Frempong**
 
 - GitHub: [@frempongdev](https://github.com/frempongdev)
 - Twitter: [@knobaddy](https://twitter.com/knobaddy)
@@ -275,7 +281,7 @@ If you like this project give it a star ⭐️
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank every one who contributed to the success of this work. especially.
+I would like to thank every one who contributed to the success of this work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
