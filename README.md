@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe your project in 1 or 2 sentences. -->
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Vet Clinic Database]** In this project, I add some many-to-many relationships and write more complex queries to use them to answer questions.
+**[Vet Clinic Database: database performance audit]** In this project we optimize some slow queries in our database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -117,7 +117,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- GETTING STARTED -->
 
@@ -132,20 +132,11 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - Install PostgreSQL or
 - db-fiddle.com.
-
 - Install PostgreSQL or
 - db-fiddle.com.
 - SQL Shell (psql).
 
-- Install PostgreSQL or
 
-- db-fiddle.com.
-
-- Install PostgreSQL or
-
-- db-fiddle.com.
-
-- SQL Shell (psql).
 
 <!--
 Example command:
@@ -156,12 +147,6 @@ Example command:
  -->
 
 ### Setup
-
-- Goto GitHub main page.
-- Click <>code.
-- Copy url of the repo.
-- Open the terminal of your local machine
-- Clone to machine thus: git clone url of repo.
 
 - Goto GitHub main page.
 - Click <>code.
@@ -181,18 +166,8 @@ Example commands:
 ### Install
 
 Install this project with:
-- VS code.
-- Git Bash etc.
 
 - VS code.
-- Git Bash etc.
-
-- VS code.
-
-- Git Bash etc.
-
-- VS code.
-
 - Git Bash etc.
 
 <!--
@@ -244,21 +219,21 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👤 Author <a name="authors"></a>
+## 👤👤 Authors <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [@lugard1](https://github.com/lugard1)
 - Twitter: [@Dsn3kings](https://twitter.com/Dsn3kings)
 - LinkedIn: [Lugard Agu](https://www.linkedin.com/in/lugardagu)
-<!-- 
+
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
+- GitHub: [@frempongdev](https://github.com/frempongdev)
+- Twitter: [@knobaddy](https://twitter.com/knobaddy)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/frempongdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -300,7 +275,7 @@ If you like this project give it a star ⭐️
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank every one who contributed to the success of this work. especially, Ermiyas Demsew.
+I would like to thank every one who contributed to the success of this work. especially.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -324,7 +299,7 @@ I would like to thank every one who contributed to the success of this work. esp
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/vetclinic/blob/add-join-table-for-visits/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/vetclinic/blob/database-performance-audit/MIT.md) licensed.
 <!-- 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
